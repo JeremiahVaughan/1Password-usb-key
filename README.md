@@ -4,3 +4,8 @@
  - Ensure APO USB Autorun is enabled in the Startup apps list
  - Add all files from the root of this repo into the root of the flash drive
  - Add your password to the secret.txt file. Only the password goes in this file, spaces or new line charactures that are not part of the password.
+
+
+References:
+ - https://www.howtogeek.com/326049/how-to-auto-run-windows-programs-when-you-plug-in-a-usb-drive/
+ - https://www.autohotkey.com/docs/AutoHotkey.htm
