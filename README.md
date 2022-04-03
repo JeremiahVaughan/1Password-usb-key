@@ -18,10 +18,10 @@ Password managers like 1Password let you use a master password to unlock access 
    - `sudo apt update;sudo apt install xclip xdotool -y`
 - Add this shortcut to Keyboard Shortcuts
    - Name: `Paste 1Password secret`
-   - Command: `sh -c "xclip -sel clip /media/piegarden/E76A-14A2/secret.txt;xdotool sleep .100 key ctrl+v"`
+   - Command (make sure you set the path to your usb drive): `sh -c "xclip -sel clip /media/path_to_usb_drive/secret.txt;xdotool sleep .100 key ctrl+v;xclip -sel clip < /dev/null"`
    - Shortcut: `Pause` (push the 'pause break' button to assign)
-      - Note: if you used a different key than 'pause break' and it has modifiers (e.g. shift, alt, ctrl), then you will want to increase the sleep value of the shortcut command, so you have time to press and remove all your fingers before ctrl+v is sent
-
+      - Note: If you used a different key than 'pause break' and it has modifiers (e.g. shift, alt, ctrl), then you will want to increase the sleep value of the shortcut command, so you have time to press and remove all your fingers before xdotool sends `ctrl+v`.
+     
 References:
 - https://www.howtogeek.com/326049/how-to-auto-run-windows-programs-when-you-plug-in-a-usb-drive/
 - https://www.autohotkey.com/docs/AutoHotkey.htm
