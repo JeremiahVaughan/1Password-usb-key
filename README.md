@@ -11,7 +11,7 @@ Password managers like 1Password let you use a master password to unlock access 
 - Ensure APO USB Autorun is enabled in the Startup apps list
 - Add all files from the root of this repo to the root of the flash drive (e.g. no folders)
 - Add your password to the secret.txt file. Only the password goes in this file, do not include spaces or newline characters that are not part of the password.
-- Plugin the flash drive and press the 'pause break' (you can set a different key by modifying and recompiling the file send_secret.ahk) button on your keyboard to paste the password from secret.txt to your focused window.
+- Plugin the flash drive and press the 'pause break' (you can set a different key by modifying and recompiling the file send_secret.ahk) key on your keyboard to paste the password from secret.txt to your focused window.
 
 # Ubuntu
 - Install prerequisite applications:
